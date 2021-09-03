@@ -36,7 +36,6 @@ public class Basic_4 {
         
         System.out.println("Please choose the operation you want: " + "\n1 - add, 2 - sub, 3 - mult, 4 - div, else 0 - exit");
         operationSelected = scanner.nextInt();
-        //System.out.println(operationSelected);
             if(operationSelected == add){
                 System.out.println("Operation Selected: Addition");
                 System.out.println("Please enter the first number: ");
